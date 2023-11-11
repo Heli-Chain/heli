@@ -1,0 +1,12 @@
+syntax = "proto3";
+package helichain.helichain;
+
+import "gogoproto/gogo.proto";
+import "helichain/helichain/params.proto";
+
+option go_package = "helichain/x/helichain/types";
+
+// GenesisState defines the helichain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
