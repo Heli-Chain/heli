@@ -165,7 +165,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "HeliWin",
+                  "moniker": "mynode",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
