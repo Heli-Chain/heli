@@ -17,9 +17,12 @@ genesis:
         min_deposit:
           - amount: "1000000000000"
             denom: "uheli"
+      params:      
         max_deposit_period: "259200s"
-      voting_params:
         voting_period: "259200s"
+        min_deposit:
+          - amount: "1000000000000"
+            denom: "uheli"
     crisis:
       constant_fee:
         denom: "uheli"
