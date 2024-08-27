@@ -1,6 +1,6 @@
 package v11
 
 const (
-	ForkBlockHeight = 508522
-	MinDepositDenom = "utheli"
+	ForkBlockHeight = 2563816
+	MinDepositDenom = "uheli"
 )
