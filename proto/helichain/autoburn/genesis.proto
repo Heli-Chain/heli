@@ -1,0 +1,12 @@
+syntax = "proto3";
+package helichain.autoburn;
+
+import "gogoproto/gogo.proto";
+import "helichain/autoburn/params.proto";
+
+option go_package = "helichain/x/autoburn/types";
+
+// GenesisState defines the autoburn module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
